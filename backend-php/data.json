@@ -1,0 +1,27 @@
+{
+	"edc_obj": 
+	{
+		"title": "EDC Data",
+		"companies": [
+		{
+			"id":"1",
+			"name":"Company1",
+			"field1":"1data1",
+			"field2":"1data2"
+		},
+		{	
+			"id":"2",
+			"name":"Company2",
+			"field1":"2data1",
+			"field2":"2data2"
+		},
+		{
+			"id":"3",
+			"name":"Company3",
+			"field1":"3data1",
+			"field2":"3data3"
+		}
+		]
+	} 
+
+}
