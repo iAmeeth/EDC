@@ -13,9 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <?php
     	//include the link file here
-	include $_SERVER['DOCUMENT_ROOT'].'/My_Work/backend-php/link.php';
+		include $_SERVER['DOCUMENT_ROOT'].'/My_Work/backend-php/link.php';
 		
-     ?>
+	?>
 
 
 
@@ -52,7 +52,7 @@
 									<div class="col l3">
 										<div class="card z-depth-2">
 											<div class="card-image">
-												<img src= <?php echo "images/".$reader->getfield($itr,name); ?> height="150px">
+												<img src= <?php echo "images/Companies/".$reader->getfield($itr,name); ?> height="150px">
 											</div>
 										</div>
 									</div>
