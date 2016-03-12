@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> TEST</title>
+
+	<!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+	<!--Navigation Bar-->
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper deep-purple darken-1">
+				<a href="#start" class="brand-logo center">TEST</a>
+
+				<a data-activates="mobile-demo" style="cursor: pointer;" class="button-collapse"> 
+					<i class="material-icons">menu</i> 
+				</a>
+
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="#Entrepreneurship">Entre</a> </li>
+					<li><a href="#WordFromHead">Word from Head</a></li>
+					<li><a href="#Pict">PICT</a></li>
+					<li><a href="#AboutUs">About Us</a></li>		
+				</ul>
+
+				<ul id="mobile-demo" class="side-nav">
+					<li><a href="#Entrepreneurship" class="flow-text">Entre</a> </li>
+					<li><a href="#WordFromHead" class="flow-text">Word from Head</a></li>
+					<li><a href="#Pict" class="flow-text">PICT</a></li>
+					<li><a href="#AboutUs" class="flow-text">About Us</a></li>		
+				</ul>
+			</div>
+		</nav>	
+	</div>
+	
+
+	<!--This is the actual content of the Page-->
+
+	<!--Slider to display quick links-->
+	<div id="start" class="slider scrollspy z-depth-4" style="background-color: black;">
+		<ul class="slides">
+			<li>
+				<img src="images/image3.jpg" style="opacity: 0.4">
+				<div class="caption left-align">
+					<h3>Title</h3>
+					<h5>Explanation</h5>
+				</div>
+			</li>
+			
+			<li>
+				<img src="images/image4.jpg">
+				<div class="caption center-align" style="opacity: 0.4">
+					<h3>Title</h3>
+					<h5>Explanation</h5>
+				</div>
+			</li>
+
+		</ul>
+	</div>
+
+	<!--Section 1-->
+	<div id="Entrepreneurship" class="parallax-container scrollspy" style="height: 400px;">
+		<div class="parallax"><img src="images/startup.jpg" style="opacity: 0.3;"></div>
+		<div class="row container">
+			<h2 class="header">Entre</h2>
+      		<p class="grey-text text-darken-3 lighten-3"> Some Bullshit	</p>
+		
+			<a class="waves-effect waves-light btn-large center deep-purple lighten-2" href="Entrepreneur.php">View</a>
+		</div>
+	</div>
+
+
+	<!--Section 2-->
+	<div id="WordFromHead" class="section scrollspy deep-purple lighten-5" style="height: 400px;">
+		<div class="row container">
+			<h2 class="header">Word From Head</h2>
+      		<p class="grey-text text-darken-3 lighten-3"> Some More Bullshit</p>
+		</div>
+	</div>
+
+
+	<!--Section 3-->
+	<div id="Pict" class="parallax-container scrollspy" style="height: 500px;">
+		<div class="parallax"><img src="images/pict.jpg" style="opacity: 0.3;"></div>
+		<div class="row container">
+			<h2 class="header">PICT</h2>
+      		<p class="grey-text text-darken-3 lighten-3"> Some Bigger Bullshit</p>
+		</div>
+	</div>
+
+	<!--Section 4-->
+	<div id="AboutUs" class="section deep-purple lighten-5 scrollspy" style="height: 500px;">
+		<div class="row container">
+			<h2 class="header">About Us</h2>
+      		<p class="grey-text text-darken-3 lighten-3"> Complete Bullshit</p>
+		</div>
+	</div>
+
+
+
+
+	<!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+
+    <!--Initialization for the slider-->
+    <script type="text/javascript">
+		
+    	$(document).ready(function(){
+    		//initialize the scrollSpy Effect
+    		$('.scrollspy').scrollSpy();
+			
+			//Initialize the side navigation bar
+    		$('.button-collapse').sideNav();    	
+
+    	});
+
+    	$(document).ready(function(){
+    		//initialize the Parallax effect
+    		$('.parallax').parallax();
+
+    		//Initialize the slider
+      		$('.slider').slider({
+      			full_width: true,
+      			indicators: true,
+      			height: 460,
+      			transition: 1200,
+      			interval: 3000
+      		});
+    	});
+        
+    </script>
+</body>
+
+</html>
