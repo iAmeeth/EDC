@@ -3,24 +3,55 @@
 	{
 		"title": "EDC Data",
 		"companies": [
-		{
-			"id":"1",
-			"name":"Company1",
-			"field1":"1data1",
-			"field2":"1data2"
-		},
-		{	
-			"id":"2",
-			"name":"Company2",
-			"field1":"2data1",
-			"field2":"2data2"
-		},
-		{
-			"id":"3",
-			"name":"Company3",
-			"field1":"3data1",
-			"field2":"3data3"
-		}
+			{
+				"id": "1",
+				"name": "LIVEHEALTH",
+				"aboutUs": "We are a group of individuals who are passionate about building the best line of products in healthcare. Every product we are building has a connected experience with all others that we have built. We want to bring the eco-system experience in healthcare, where health providers and customers are connected in a single environment.",
+
+				"vision": "Livehealth is an experience driven company. We thrive to deliver the best connected experience through our products. Our version of healthcare is more connected, simpler & safer.
+					To do this, we work with health providers in the most consolidated manner, to know more about how records are 
+					generated, where technology can deliver its best, and how patient experience can be improved.",
+
+				"tagline": "One Health Care Platform",	
+
+				"founders": [
+					{
+						"photoid": "1",
+						"name": "Abhimanyu Bhosale",
+						"post": "Co-Founder & CEO",
+						"twitter": "@abhimanyubh"
+					},
+					
+					{
+						"photoid": "2",
+						"name": "Mukund Malani",
+						"post": "Co-Founder & CEO",
+						"twitter": "@mukundmalani"
+					}
+				]
+			},
+
+			{
+				"id": "2",
+				"name": "FIZZIBLE",
+				"aboutUs": "Fizzible is an online retail store that sells the components to make your electronics projects possible. No matter what your vision is, our products and resources are designed to make the world of electronics more accessible to the average person.Our goal is to create the best place online for learning electronics and making the best designed products for makers of all ages and skill levels.
+					Whether you’re a technician, student, beginner in electronics, hobbyist or inventor – whether your interest is robotics, electronics, surveillance, remote control models,computers, we have something you need. We are your phone-order, mail-order, world-wide web resource for thousands of common and hard-to-find electronic devices.
+					We accelerated at such a fast pace that we were awarded as the 3rd best startup by TIE International  (The Indus Entrepreneur) and now we are developing our own products in the field of automation, embedded systems and state of the art image processing.
+					The culture at Fizzible is young and vibrant having all the people passionate about their work. We think, work, discuss and implement overflowing innovative ideas to come up with something new and original.",
+
+				"vision": "We believe that people with passion can change the world around them for better. FizzStory is all about people,who are doing things insanely great. Please do check out,share and follow us for more update.",
+
+				"tagline": "",	
+
+				"founders": [
+					{
+						"photoid": "default",
+						"name": "Vishal Sanap",
+						"post": "Founder",
+						"twitter": "No idea"
+					}
+				]
+			}
 		]
 	} 
 
