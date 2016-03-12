@@ -8,17 +8,18 @@
 		private $comp_names;
 	
 		function __construct()
-		//The Constructor of the class
 		{
+			//The Constructor of the class
 			$this->datafile = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/My_Work/backend-php/data.json');	
 			$this->data = json_decode($this->datafile);
 			$this->title = $this->data->edc_obj->title;
 			$this->comp_names = $this->data->edc_obj->companies;
 		
 		}
+		
 		function noOfItems()
-		//this function returns the number of companies in the data.json
 		{
+			//this function returns the number of companies in the data.json
 			return sizeof($this->comp_names);
 		}
 	
@@ -32,8 +33,8 @@
 			}
 		}
 		function searchkeyw($keyword) 
-		//basic search function. Gives complete details of company based on keyword searched.
 		{
+			//basic search function. Gives complete details of company based on keyword searched.
 			foreach ($this->comp_names as $names) {
 				if(preg_match($keyword, $names->name) || preg_match($keyword, $names->field1) || preg_match($keyword, $names->field2))
 				{

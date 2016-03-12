@@ -14,7 +14,9 @@
     <?php
     	//include the link file here
 		include $_SERVER['DOCUMENT_ROOT'].'/My_Work/backend-php/link.php';
-		
+		//echo "Lavade Ke Baal";
+		//$limit = $reader->noOfItems();
+		echo $limit;
 	?>
 
 
@@ -44,7 +46,8 @@
 		<div class="col l8">
 			<ul class="collapsible popout" data-collapsible="accordion">
 				<?php
-					$limit = $reader->listnames();
+					$limit = $reader->noOfItems();
+					echo $limit;
 					for($itr = 1; $itr <= $limit; $itr = $itr + 1) { ?>
 						<li>
 							<div class="collapsible-header z-depth-4">
