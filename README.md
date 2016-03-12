@@ -2,4 +2,4 @@
 # Website project.
 # Backend using php 
 # Data stored in JSON
-# Frontend using HTML, CSS ,MATERIALISE CSS
+# Frontend using HTML, CSS ,MATERIALIZE CSS
