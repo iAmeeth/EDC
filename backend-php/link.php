@@ -10,11 +10,10 @@
 		function __construct()
 		{
 			//The Constructor of the class
-			$this->datafile = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/My_Work/backend-php/data.json');	
+			$this->datafile = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/EDC/backend-php/data.json');	
 			$this->data = json_decode($this->datafile);
 			$this->title = $this->data->edc_obj->title;
 			$this->comp_names = $this->data->edc_obj->companies;
-		
 		}
 		
 		function noOfItems()

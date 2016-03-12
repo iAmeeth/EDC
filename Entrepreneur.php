@@ -13,10 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <?php
     	//include the link file here
-		include $_SERVER['DOCUMENT_ROOT'].'/My_Work/backend-php/link.php';
-		//echo "Lavade Ke Baal";
-		//$limit = $reader->noOfItems();
-		echo $limit;
+		include $_SERVER['DOCUMENT_ROOT'].'/EDC/backend-php/link.php';
 	?>
 
 
@@ -47,7 +44,6 @@
 			<ul class="collapsible popout" data-collapsible="accordion">
 				<?php
 					$limit = $reader->noOfItems();
-					echo $limit;
 					for($itr = 1; $itr <= $limit; $itr = $itr + 1) { ?>
 						<li>
 							<div class="collapsible-header z-depth-4">
