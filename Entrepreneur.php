@@ -43,7 +43,7 @@
 		<div class="col l8">
 			<ul class="collapsible popout" data-collapsible="accordion">
 				<?php
-					$limit = $reader->noOfItems();
+					$limit = $reader->noOfItems(); 	
 					for($itr = 1; $itr <= $limit; $itr = $itr + 1) { ?>
 						<li>
 							<div class="collapsible-header z-depth-4">
