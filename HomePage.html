@@ -17,7 +17,7 @@
 	<!--Navigation Bar-->
 	<div class="navbar-fixed">
 		<nav>
-			<div class="nav-wrapper deep-purple darken-1">
+			<div class="nav-wrapper" style="background-color: #0b2233;">
 				<a href="#start" class="brand-logo center">PICT Business Cell</a>
 
 				<a data-activates="mobile-demo" style="cursor: pointer;" class="button-collapse"> 
@@ -48,18 +48,73 @@
 	<div id="start" class="slider scrollspy z-depth-4" style="background-color: black;">
 		<ul class="slides">
 			<li>
-				<img src="images/image3.jpg" style="opacity: 0.4">
+				<img src="images/jobs4.jpg" style="opacity: 1.0" class="responsive-img">
 				<div class="caption left-align">
-					<h3>Title</h3>
-					<h5>Explanation</h5>
+					<h3>LOVE WHAT YOU DO</h3>
 				</div>
 			</li>
 			
 			<li>
-				<img src="images/image4.jpg">
-				<div class="caption center-align" style="opacity: 0.4">
-					<h3>Title</h3>
-					<h5>Explanation</h5>
+				<img src="images/exp.png">
+				<div class="caption right-align" style="opacity: 1.0">
+					<h3>Learn</h3>
+					<h5>From other's experience</h5>
+				</div>
+			</li>
+
+			<li>
+				<img src="images/act.png">
+				<div class="caption right-align" style="opacity: 1.0">
+					<font color="black"><h3>Constantly take action</h3>
+					</font>
+				</div>
+			</li>
+
+			<li>
+				<img src="images/plan.png">
+				<div class="caption left-align" style="opacity: 1.0">
+					<font color="white"><h3>Make a plan</h3>
+					</font>
+				</div>
+			</li>
+
+			<li>
+				<img src="images/rep.png">
+				<div class="caption right-align" style="opacity: 1.0">
+					<h3 style="color: white;">Build a reputation</h3>
+					
+				</div>
+			</li>
+
+			<li>
+				<img src="images/late.png">
+				<div class="caption right-align" style="opacity: 1.0">
+					<font color="black"><h4>It's never too late to start</h4>
+					</font>
+				</div>
+			</li>
+
+			<li>
+				<img src="images/ateam.png">
+				<div class="caption left-align" style="opacity: 1.0">
+					<font color="darkblue"><h3>Build your 'A' team</h3>
+					</font>
+				</div>
+			</li>
+ 
+           	<li>
+				<img src="images/att.png">
+				<div class="caption left-align" style="opacity: 1.0">
+					<font color="black"><h4>Be mindful of your attitude</h4>
+					</font>
+				</div>
+			</li>
+
+	        <li>
+				<img src="images/ph.png">
+				<div class="caption right-align" style="opacity: 1.0">
+					<font color="black"><h3>Patience And Hardwork</h3><h5>The keys to success</h5>
+					</font>
 				</div>
 			</li>
 
@@ -67,19 +122,19 @@
 	</div>
 
 	<!--Section 1-->
-	<div id="Entrepreneurship" class="parallax-container scrollspy" style="height: 400px;">
+	<div id="Entrepreneurship" class="parallax-container scrollspy" style="height: 400px; background-attachment: fixed;">
 		<div class="parallax"><img src="images/startup.jpg" style="opacity: 0.3;"></div>
 		<div class="row container">
 			<h2 class="header">Entre</h2>
       		<p class="grey-text text-darken-3 lighten-3"> Some Bullshit	</p>
 		
-			<a class="waves-effect waves-light btn-large center deep-purple lighten-2" href="Entrepreneur.php">View</a>
+			<a class="waves-effect waves-light btn-large center" style="background-color: #0b2233;" href="Entrepreneur.php">View</a>
 		</div>
 	</div>
 
 
 	<!--Section 2-->
-	<div id="WordFromHead" class="section scrollspy deep-purple lighten-5" style="height: 400px;">
+	<div id="WordFromHead" class="section scrollspy white" style="height: 400px;">
 		<div class="row container">
 			<h2 class="header">Word From Head</h2>
       		<p class="grey-text text-darken-3 lighten-3"> Some More Bullshit</p>
@@ -88,7 +143,7 @@
 
 
 	<!--Section 3-->
-	<div id="Pict" class="parallax-container scrollspy" style="height: 500px;">
+	<div id="Pict" class="parallax-container scrollspy" style="height: 400px; background-attachment: fixed;">
 		<div class="parallax"><img src="images/pict.jpg" style="opacity: 0.3;"></div>
 		<div class="row container">
 			<h2 class="header">PICT</h2>
@@ -97,7 +152,7 @@
 	</div>
 
 	<!--Section 4-->
-	<div id="AboutUs" class="section deep-purple lighten-5 scrollspy" style="height: 500px;">
+	<div id="AboutUs" class="section white scrollspy" style="height: 500px;">
 		<div class="row container">
 			<h2 class="header">About Us</h2>
       		<p class="grey-text text-darken-3 lighten-3"> Complete Bullshit</p>
@@ -131,11 +186,19 @@
       		$('.slider').slider({
       			full_width: true,
       			indicators: true,
-      			height: 460,
+      			height: 441,
       			transition: 1200,
-      			interval: 3000
+      			interval: 5000
       		});
     	});
+
+  //   	$(window).scroll(function(){
+  //   		if($(document).scrollTop() > 600 && $(document).scrollTop() < 2500) {
+  //   			var temp =  100 - ($(document).scrollTop() - 1200) / 8;
+  //   			var bonus = '50% ' + temp*-1 + '%';
+  //   			document.getElementById('div').style.backgroundPosition = bonus;
+		//     }
+		// });
         
     </script>
 </body>
