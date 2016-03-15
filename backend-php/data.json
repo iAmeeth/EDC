@@ -35,7 +35,7 @@
 				"id": "2",
 				"name": "FIZZIBLE",
 				"aboutUs": "Fizzible is an online retail store that sells the components to make your electronics projects possible. No matter what your vision is, our products and resources are designed to make the world of electronics more accessible to the average person.Our goal is to create the best place online for learning electronics and making the best designed products for makers of all ages and skill levels.
-					Whether youâ€™re a technician, student, beginner in electronics, hobbyist or inventor â€“ whether your interest is robotics, electronics, surveillance, remote control models,computers, we have something you need. We are your phone-order, mail-order, world-wide web resource for thousands of common and hard-to-find electronic devices.
+					Whether you’re a technician, student, beginner in electronics, hobbyist or inventor – whether your interest is robotics, electronics, surveillance, remote control models,computers, we have something you need. We are your phone-order, mail-order, world-wide web resource for thousands of common and hard-to-find electronic devices.
 					We accelerated at such a fast pace that we were awarded as the 3rd best startup by TIE International  (The Indus Entrepreneur) and now we are developing our own products in the field of automation, embedded systems and state of the art image processing.
 					The culture at Fizzible is young and vibrant having all the people passionate about their work. We think, work, discuss and implement overflowing innovative ideas to come up with something new and original.",
 
@@ -51,7 +51,121 @@
 						"twitter": "No idea"
 					}
 				]
-			}
+			},
+			{
+				"id": "3",
+				"name": "MakerVille",
+				"aboutUs": "",
+
+				"vision": "",
+
+				"tagline": "We love to take hardware and software dreams from ideas to fruition.",	
+
+				"founders": [
+					{
+						"photoid": "default",
+						"name": "Anuj Deshpande",
+						"post": "Founder & Director",
+						"twitter": ""
+					}
+				]
+
+			},
+			{
+				"id": "4",
+				"name": "ShopAll",
+				"aboutUs": "•ShopAll brings together all leading e-commerce websites and service providers on a single platform.
+•Explore many shopping websites using multi-tab option and grab the best price.
+•Pay mobile bills and recharge DTH from ShopAll.
+•Explore a wide range of exclusive websites that offer great products and services.
+•ShopAll makes life easy.",
+
+				"vision": "",
+
+				"tagline": "",	
+
+				"founders": [
+					{
+						"photoid": "default",
+						"name": "Siddhant Gadre",
+						"post": "Co-Founder",
+						"twitter": "@sidgadre"
+					}
+				]
+
+			},
+			{
+				"id": "5",
+				"name": "ZangOut",
+				"aboutUs": "Use the ZangOut application to discover your neighbourhood, and live smarter. The app as of now contains lists of hostels, messes, eateries,  laundries, ATMs etc, in and around Katraj and Dhankavadi (Pune , Maharashtra, India), keeping two colleges in focus at the moment as reference points (Pune Institute of Computer Technology and Bharati Vidyapeeth)",
+
+				"vision": "",
+
+				"tagline": "LIVE SMARTER, LIVE BETTER",	
+
+				"founders": [
+					{
+						"photoid": "default",
+						"name": "Rajnikant Deshmukh",
+						"post": "",
+						"twitter": ""
+					}
+				]
+
+			},
+			{
+				"id": "6",
+				"name": "EDURIO",
+				"aboutUs": "At Edurio we are an incredibly diverse set of folks but most of us have had the pleasure of teaching in schools, universities or both. This helps us understand the challenges schools face in trying to improve the education they provide. 
+Our advisors are experienced in education and technology and help us ensure we are building something truly valuable.",
+
+				"vision": "",
+
+				"tagline": "Feedback that leads to action.",	
+
+				"founders": [
+					{
+						"photoid": "default",
+						"name": "Vishanth Baradwaj",
+						"post": "Co-Founder ",
+						"twitter": ""
+					}
+				]
+
+			},
+			{
+				"id": "7",
+				"name": "SiteFlu",
+				"aboutUs": "We are a collaborative team of Strategists, Designers, Developers and creative Coders with a mission of visually expressing your Business with elegant and fast websites. With Insightful thinking, Intelligent design and Innovative technology, your project is more than a job to us.",
+
+				"vision": "",
+
+				"tagline": "",	
+
+				"founders": [
+					{
+						"photoid": "default",
+						"name": "Ankit Yadav",
+						"post": "Founder",
+						"twitter": "@ankity10"
+					},
+					
+					{
+						"photoid": "default",
+						"name": "@jakirmpatel",
+						"post": "Co-Founder",
+						"twitter": ""
+					},
+					{
+						"photoid": "default",
+						"name": "Rohit Funde",
+						"post": "Co-Founder",
+						"twitter": ""
+					}
+
+				]
+
+			}		
 		]
 	} 
 
