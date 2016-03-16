@@ -14,7 +14,7 @@
     <?php
     	//include the link file here
     		
-		include $_SERVER['DOCUMENT_ROOT'].'\EDC\backend-php\link.php';
+		include $_SERVER['DOCUMENT_ROOT'].'\backend-php\link.php';
 	?>
 
 
