@@ -2,10 +2,10 @@
 
 	class EDC_data
 	{
-		private $datafile;
-		private $data;
-		private $title;
-		private $comp_names;
+		public $datafile;
+		public $data;
+		public $title;
+		public $comp_names;
 	
 		function __construct()
 		{
