@@ -14,7 +14,7 @@
     <?php
     	//include the link file here
     		
-		include $_SERVER['DOCUMENT_ROOT'].'/EDC/backend-php/link.php';
+		include $_SERVER['DOCUMENT_ROOT'].'\EDC\backend-php\link.php';
 	?>
 
 
@@ -31,7 +31,7 @@
 			<div class="nav-wrapper blue-grey darken-3 z-depth-0">
 
 				<a href="" class="brand-logo center">Our Entrepreneurs</a>
-				<?php echo $_SERVER['DOCUMENT_ROOT'].'/EDC/backend-php/link.php'; ?>
+				
 			</div>
 		</nav>	
 	</div>
