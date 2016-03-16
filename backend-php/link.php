@@ -13,8 +13,9 @@
 			$this->datafile = file_get_contents($_SERVER['DOCUMENT_ROOT'].'\backend-php\data.json');
 			$this->data = json_decode($this->datafile);
 			$this->title = $this->data->edc_obj->title;
+			echo $this->title;
 			$this->comp_names = $this->data->edc_obj->companies;
-			echo sizeof($this->comp_names);
+			
 		}
 		
 		function noOfItems()
