@@ -14,6 +14,7 @@
 			$this->data = json_decode($this->datafile);
 			$this->title = $this->data->edc_obj->title;
 			$this->comp_names = $this->data->edc_obj->companies;
+			echo sizeof($this->comp_names);
 		}
 		
 		function noOfItems()
