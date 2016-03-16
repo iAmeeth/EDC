@@ -31,7 +31,7 @@
 			<div class="nav-wrapper blue-grey darken-3 z-depth-0">
 
 				<a href="" class="brand-logo center">Our Entrepreneurs</a>
-				<?php echo $_SERVER['DOCUMENT_ROOT'].'\backend-php\link.php'; ?>
+			
 				
 			</div>
 		</nav>	
@@ -47,7 +47,7 @@
 			<ul class="collapsible popout" data-collapsible="accordion">
 				<?php
 					$limit = $reader->noOfItems(); 	
-					echo $limit;
+					
 					for($itr = 1; $itr <= $limit; $itr = $itr + 1) { ?>
 						<li>
 							<div class="collapsible-header z-depth-4">
