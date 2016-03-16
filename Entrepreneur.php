@@ -31,6 +31,7 @@
 			<div class="nav-wrapper blue-grey darken-3 z-depth-0">
 
 				<a href="" class="brand-logo center">Our Entrepreneurs</a>
+				<?php echo $_SERVER['DOCUMENT_ROOT'] ?>
 				
 			</div>
 		</nav>	
