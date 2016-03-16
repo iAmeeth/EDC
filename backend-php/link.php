@@ -12,9 +12,10 @@
 			//The Constructor of the class
 			$this->datafile = file_get_contents($_SERVER['DOCUMENT_ROOT'].'\backend-php\data.json');
 			$this->data = json_decode($this->datafile);
+			vardump($data)
 			$this->title = $this->data->edc_obj->title;
 			echo "AM";
-			echo $this->title;
+			echo title;
 			$this->comp_names = $this->data->edc_obj->companies;
 			
 		}
