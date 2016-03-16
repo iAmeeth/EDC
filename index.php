@@ -155,7 +155,11 @@
 	<div id="AboutUs" class="section white scrollspy" style="height: 500px;">
 		<div class="row container">
 			<h2 class="header">About Us</h2>
-      		<p class="grey-text text-darken-3 lighten-3"> Complete Bullshit</p>
+      		<p class="grey-text text-darken-3 lighten-3">Developers: Ameeth Kanawaday</p>
+      		<p class="grey-text text-darken-3 lighten-3">Developers: Animesh Karnewar</p>
+      		<p class="grey-text text-darken-3 lighten-3">Developers: Rushab Shah</p>
+      		<p class="grey-text text-darken-3 lighten-3">Developers: Mausam Yede</p>
+
 		</div>
 	</div>
 
